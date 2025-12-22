@@ -1,0 +1,78 @@
+####################################
+# Python
+####################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+####################################
+# Virtual Environment
+####################################
+.venv/
+venv/
+env/
+ENV/
+
+####################################
+# PyCharm / IntelliJ IDEA
+####################################
+.idea/
+*.iml
+
+####################################
+# OS-specific
+####################################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+####################################
+# Terraform
+####################################
+*.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+####################################
+# Terraform variable files (secrets)
+####################################
+*.tfvars
+*.tfvars.json
+
+####################################
+# Docker
+####################################
+docker-compose.override.yml
+
+####################################
+# Jenkins
+####################################
+jenkins_home/
+*.jenkins.log
+
+####################################
+# Logs & temp files
+####################################
+logs/
+tmp/
+temp/
+
+####################################
+# IDE & Editor backups
+####################################
+*.swp
+*.swo
+*~
