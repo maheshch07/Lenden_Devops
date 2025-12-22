@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/maheshch07/Lenden_Devops.git'
-            }
-        }
-
         stage('Docker Build') {
             steps {
                 sh 'docker build -t devops-app ./app'
